@@ -58,16 +58,16 @@
   &kp TAB   &kp HOME           &kp UP      &kp END          &kp PAGE_UP      &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
   &kp CAPS  &kp LEFT           &kp DOWN    &kp RIGHT        &kp PAGE_DOWN    &kp KP_SUBTRACT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0
   &mo 4     &kp K_VOLUME_DOWN  &kp K_MUTE  &kp K_VOLUME_UP  &kp LS(TAB)      &kp KP_COMMA     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT
-                               &trans      &trans           &kp DELETE       &trans           &trans           &trans
+                               &mo 3       &kp ESCAPE       &kp DELETE       &kp SPACE        &lt 2 ENTER      &mo 4
             >;
         };
 
         symbols_layer {
             bindings = <
-  &kp CARET  &kp LESS_THAN         &kp GREATER_THAN       &kp DOLLAR       &kp PERCENT      &kp AT    &kp AMPS             &kp STAR      &kp LS(APOSTROPHE)  &kp GRAVE
-  &kp LBRC   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp EQUAL        &kp BSLH  &kp PLUS             &kp MINUS     &kp FSLH            &kp DQT
-  &kp TILDE  &kp LBKT              &kp RBKT               &kp UNDER        &kp LS(POUND)    &kp PIPE  &kp LS(EXCLAMATION)  &kp LS(SEMI)  &kp LS(COLON)       &kp LS(QMARK)
-                                   &trans                 &trans           &trans           &trans    &trans               &trans
+  &kp CARET  &kp LESS_THAN         &kp GREATER_THAN       &kp DOLLAR       &kp PERCENT        &kp AT       &kp AMPS             &kp STAR      &kp LS(APOSTROPHE)  &kp GRAVE
+  &kp LBRC   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp EQUAL          &kp BSLH     &kp PLUS             &kp MINUS     &kp FSLH            &kp DQT
+  &kp TILDE  &kp LBKT              &kp RBKT               &kp UNDER        &kp LS(POUND)      &kp PIPE     &kp LS(EXCLAMATION)  &kp LS(SEMI)  &kp LS(COLON)       &kp LS(QMARK)
+                                   &kp LEFT_CONTROL       &kp ESCAPE       &lt 4 BACKSPACE    &lt 4 SPACE  &kp ENTER            &trans
             >;
         };
 

@@ -63,6 +63,7 @@
         };
 
         symbols_layer {
+            display-name = "Symbols";
             bindings = <
   &kp CARET  &kp LESS_THAN         &kp GREATER_THAN       &kp DOLLAR       &kp PERCENT        &kp AT       &kp AMPS             &kp STAR      &kp LS(APOSTROPHE)  &kp GRAVE
   &kp LBRC   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp EQUAL          &kp BSLH     &kp PLUS             &kp MINUS     &kp FSLH            &kp DQT
@@ -71,7 +72,7 @@
             >;
         };
 
-        Function_layer {
+        function_layer {
             bindings = <
   &kp F1  &kp F2   &kp F3   &kp F4   &trans    &trans  &trans  &trans  &trans  &trans
   &kp F5  &kp F6   &kp F7   &kp F8   &trans    &trans  &trans  &trans  &trans  &trans
@@ -80,13 +81,14 @@
             >;
         };
 
-        what_layer {
+        System_layer {
             // -----------------------------------------------------------------------------------------
             // |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |
             // | BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |
             // |     |     |     |     |     |   |     |     |     |     |     |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
+            display-name = "System";
             bindings = <
   &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0
   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans
@@ -102,7 +104,7 @@
             // |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M   | CTRL | META | . |
             //             | GUI | LWR | SPC |     | ENT | RSE  | BSPC |
 
-            display-name = "Base";
+            display-name = "Shift";
             bindings = <
   &kp LS(Q)  &kp LS(W)  &kp LS(E)      &kp LS(R)        &kp LS(T)     &kp LS(Y)    &kp LS(U)  &kp LS(I)      &kp LS(O)    &kp LS(P)
   &kp LS(A)  &kp LS(S)  &kp LS(LCTRL)  &kp LS(F)        &kp LS(G)     &kp LS(H)    &kp LS(J)  &kp LS(K)      &kp LS(L)    &kp LS(SEMICOLON)
